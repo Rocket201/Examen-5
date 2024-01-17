@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="icons8-mountain-64.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <header class="hero-container">
+            <div class="hero-body">
+                <h1>Asturian natural trails</h1>
+                <span>Las mejores rutas de montaña para hacer senderismo</span>
+            </div>
+        </header>
+    </header>
+
+    <section class="container">
+
+        <form action="envio.html" id="formulario" name="formulario" class="formulario" method="get">
+
+            <h1>Contáctanos</h1>
+            
+        <input type="nombre" id="nombre" class="nombre" placeholder="Nombre" >
+        <input type="correo-electronico" id="correo-electronico" class="correo-electronico" placeholder="Correo electrónico">
+
+        <span>Solicitud de información adicional</span>
+        <input type="radio" name="informacion-adicional" type="radio" id="informacion-adicional">
+        <span>Reserva de ruta</span> 
+        <input type="radio" name="reserva-ruta" type="radio" id="reserva-ruta"> 
+
+        <input type="submit" id="info" value="Info" placeholder="info">
+
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Por favor, inserta un mensaje"></textarea>
+
+        <input id="enviar" type="submit" value="enviar" class="btn-enviar"  placeholder="Enviar">
+
+        <ul class="error" id="error"></ul>
+
+        </form>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+    
